@@ -1,7 +1,18 @@
 h1 {
-    font-size: 5em;
+    font-size: 4em;
 }
 
-img{
-    height: 300px
+#self_picture {
+    height: 90vh;
 }
+
+body {
+    background-size: cover;
+    background-image: url("images/golden-gate.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* class and id are styled using .<name> and #<name> respectively */
+
