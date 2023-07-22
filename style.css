@@ -1,17 +1,59 @@
 h1 {
-    font-size: 4em;
+    font-size: 64px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 3px aqua;
+    font-family: Tahoma, sans-serif;
+
 }
 
 #self_picture {
-    height: 90vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px;
+    height:500px;
+    object-fit:cover;
+    border-radius:50%;
+    border: 3px solid aqua;
+
+}
+
+.icons {
+    height: 75px;
+    padding: 20px 50px;
+    background-clip: padding-box;
+    background-color: aqua;
+    margin: 50px;
 }
 
 body {
     background-size: cover;
-    background-image: url("images/golden-gate.png");
+    background-image: url("images/golden-gate.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+#about-me {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    line-height: 1.25;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    background-color: aqua;
+    margin: 50px 200px;
+    padding: 10px 20px;
+    
 }
 
 /* class and id are styled using .<name> and #<name> respectively */
